@@ -10,7 +10,7 @@ Spend the next 5-10 minutes writing out answers for the following sub-standards.
 ## Define and Describe DOM
   - Definition: Document Object Model
   - Description: The Document Object Model (DOM) is an application programming interface (API) for valid HTML and well-formed                  XML documents. It defines the logical structure of documents and the way a document is accessed and                            manipulated. With the Document Object Model, programmers can build documents, navigate their structure, and                    add, modify, or delete elements and content. Anything found in an HTML or XML document can be accessed,                        changed, deleted, or added using the Document Object Model.
- 
+
                  - API to interface with the page through JavaScript / DOM gets created first
                  - A tree data srtucture, this root elements (HTML) parent/children elements
                  - created by browser on page load
@@ -19,7 +19,7 @@ Spend the next 5-10 minutes writing out answers for the following sub-standards.
 ## Define and Describe CSS
   - Definition: Cascading Style Sheets
   - Description: a style sheet language used for describing the presentation of a document written in a markup language.                        Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML,                  the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to                        rendering in speech, or on other media.
-  
+
                  - Reads from top to bottom - last/ lower styles override earlier styles
                  - CSS is thew skin of the apllication/page
                  - Styling
@@ -29,12 +29,12 @@ Spend the next 5-10 minutes writing out answers for the following sub-standards.
 ## Define and Describe HTML
   - Definition: Hyper Text Markup Language
   - Description: is the standard markup language for creating web pages and web applications.
-  
-                 - the structure/bones of the page/app 
+
+                 - the structure/bones of the page/app
                  - defines structure and layout witha variety of tags/elements/attribute
 
 ## Describe how events work
-  - Description: Event are many, (click, mouseover, scroll, ..etc) 
+  - Description: Event are many, (click, mouseover, scroll, ..etc)
                   - they get attached to DOM Nodes
                   - relationship between listeners / handlers - (function that runs when listener is triggerd)
 
@@ -47,9 +47,9 @@ Spend the next 5-10 minutes writing out answers for the following sub-standards.
 
 ## Describe event delegation / bubbling
   - Description:
-      - Delegation: attach listener to parent where the children inherit the 
+      - Delegation: attach listener to parent where the children inherit the
        - attach event listener to parent when dynamically appending information/content
-      
+
       - Bubbling: Event bubbling directs an event to its intended target, it works like this: A button is clicked and the             event is directed to the button. If an event handler is set for that object, the event is triggered. If no event               handler is set for that object, the event bubbles up (like a bubble in water) to the objects parent.
           - Nested elements with the same elements will trigger parent events.
           - The events Bubble Up
@@ -57,12 +57,12 @@ Spend the next 5-10 minutes writing out answers for the following sub-standards.
 ## Describe how linking to stylesheets / images / scripts works as far as requests and responses
   - Description: Loading resourses is a sequence of request
                  - HTML gets loaded first (initial request)
-                 - Then reads through the code... 
+                 - Then reads through the code...
                  - If unavailable <link> or additional resource ..then it makes another requeset
 
 ## Describe how urls are resolved in a browser (http://student-galvanize.com/myProfile?name=matt)
-  - Description: (http://) protocol hyper text tranfer protocol
-                 (student-) sub-domain
+  - Description: (http://) protocol hyper text transfer protocol
+                 (student- or www) sub-domain
                  (galvanize) domain
                  (myProfile) path
                  (?name=matt) query string
